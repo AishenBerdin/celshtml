@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^cels\.megawide\.com\.ph$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.cels\.megawide\.com\.ph$
+RewriteRule ^/?$ "http\:\/\/megawide\.com\.ph\/cels" [R=301,L]
+
